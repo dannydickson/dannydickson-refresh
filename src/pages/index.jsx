@@ -255,7 +255,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I’m Danny, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I’m Danny, a software designer and entrepreneur based in Albuquerque, NM. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
         />
       </Head>
       <Container className="mt-9">

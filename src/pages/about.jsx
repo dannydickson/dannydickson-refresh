@@ -44,7 +44,7 @@ export default function About() {
         <title>About - Danny Dickson</title>
         <meta
           name="description"
-          content="I’m Danny Dickson. I live in New York City, where I design the future."
+          content="I’m Danny Dickson. I live in Albuquerque, NM, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
@@ -108,11 +108,11 @@ export default function About() {
                 Follow on LinkedIn
               </SocialLink>
               <SocialLink
-                href="mailto:Danny@planetaria.tech"
+                href="mailto:hello@dannydickson.com"
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                Danny@planetaria.tech
+                hello@dannydickson.com
               </SocialLink>
             </ul>
           </div>
