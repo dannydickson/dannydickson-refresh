@@ -20,7 +20,7 @@ export function FormSection() {
   return (
     <div className="relative isolate bg-white dark:bg-zinc-900">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
-        <div className="relative mt-16 sm:mt-20">
+        <div className="relative pb-24 pr-6  sm:pb-32 lg:pr-8">
           <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
             <div className="absolute inset-y-0 left-0 -z-10 w-full overflow-hidden bg-white dark:bg-zinc-900 lg:w-1/2">
               {/* <svg
@@ -55,23 +55,19 @@ export function FormSection() {
               Arcu sed malesuada et magna.
             </p>
             <dl className="mt-10 space-y-4">
-              <a className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
+              <div className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition dark:text-zinc-200">
                 <dt className="flex-none">
                   <span className="sr-only">Address</span>
                   <BuildingOffice2Icon
-                    className="h-7 w-6 text-zinc-500 transition group-hover:text-teal-500"
+                    className="h-7 w-6 text-zinc-500 transition"
                     aria-hidden="true"
                   />
                 </dt>
-                <dd>
-                  545 Mavis Island
-                  <br />
-                  Chicago, IL 99191
-                </dd>
-              </a>
+                <dd>Albuquerque, NM</dd>
+              </div>
               <a
                 className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                href="tel:+1 (555) 234-5678"
+                href="tel:+15053860063"
               >
                 <dt className="flex-none">
                   <span className="sr-only">Telephone</span>
@@ -80,7 +76,7 @@ export function FormSection() {
                     aria-hidden="true"
                   />
                 </dt>
-                <dd>+1 (555) 234-5678</dd>
+                <dd>(505) 386-0063</dd>
               </a>
               <a className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
                 <dt className="flex-none">
@@ -95,7 +91,7 @@ export function FormSection() {
                     className="hover:text-teal-500 dark:hover:text-teal-500"
                     href="mailto:hello@example.com"
                   >
-                    hello@example.com
+                    hello@dannydickson.com
                   </a>
                 </dd>
               </a>
@@ -105,14 +101,14 @@ export function FormSection() {
         <form
           action="#"
           method="POST"
-          className="px-6 pb-24 pt-20 sm:pb-32 lg:px-8 lg:py-48"
+          className="px-6 pb-24 sm:pb-32 lg:px-8"
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   First name
                 </label>
@@ -122,14 +118,14 @@ export function FormSection() {
                     name="first-name"
                     id="first-name"
                     autoComplete="given-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-zinc-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:text-zinc-100 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Last name
                 </label>
@@ -139,14 +135,14 @@ export function FormSection() {
                     name="last-name"
                     id="last-name"
                     autoComplete="family-name"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-zinc-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:text-zinc-100 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Email
                 </label>
@@ -156,14 +152,14 @@ export function FormSection() {
                     name="email"
                     id="email"
                     autoComplete="email"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-zinc-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:text-zinc-100 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
                 <label
                   htmlFor="phone-number"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Phone number
                 </label>
@@ -173,14 +169,14 @@ export function FormSection() {
                     name="phone-number"
                     id="phone-number"
                     autoComplete="tel"
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-zinc-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:text-zinc-100 sm:text-sm sm:leading-6"
                   />
                 </div>
               </div>
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-gray-900"
+                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Message
                 </label>
@@ -189,7 +185,7 @@ export function FormSection() {
                     name="message"
                     id="message"
                     rows={4}
-                    className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+                    className="block w-full rounded-md border-0 px-3.5 py-2 text-zinc-800 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 dark:text-zinc-100 sm:text-sm sm:leading-6"
                     defaultValue={''}
                   />
                 </div>
@@ -221,15 +217,6 @@ export default function Contact() {
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
-        <div className="lg:order-first lg:row-span-2">
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            I’m Danny Dickson. I live in Albuquerque, NM where I help to design
-            the future.
-          </h1>
-          <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
-            Some text can go here.
-          </div>
-        </div>
         <FormSection />
       </Container>
     </>
