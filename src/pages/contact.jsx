@@ -50,9 +50,11 @@ export function FormSection() {
               Get in touch
             </h2>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              Proin volutpat consequat porttitor cras nullam gravida at. Orci
-              molestie a eu arcu. Sed ut tincidunt integer elementum id sem.
-              Arcu sed malesuada et magna.
+              I love solving problems. Let us know what you need help with and
+              I&apos;d be glad to help out!
+            </p>
+            <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+              Use the form to the right to send us a message, or give us a call.
             </p>
             <dl className="mt-10 space-y-4">
               <div className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition dark:text-zinc-200">
@@ -78,7 +80,7 @@ export function FormSection() {
                 </dt>
                 <dd>(505) 386-0063</dd>
               </a>
-              <a className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
+              {/* <a className="group flex gap-x-4 text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500">
                 <dt className="flex-none">
                   <span className="sr-only">Email</span>
                   <EnvelopeIcon
@@ -86,23 +88,12 @@ export function FormSection() {
                     aria-hidden="true"
                   />
                 </dt>
-                <dd>
-                  <a
-                    className="hover:text-teal-500 dark:hover:text-teal-500"
-                    href="mailto:hello@example.com"
-                  >
-                    hello@dannydickson.com
-                  </a>
-                </dd>
-              </a>
+                <dd>hello@dannydickson.com</dd>
+              </a> */}
             </dl>
           </div>
         </div>
-        <form
-          action="#"
-          method="POST"
-          className="px-6 pb-24 sm:pb-32 lg:px-8"
-        >
+        <form action="#" method="POST" className="px-6 pb-24 sm:pb-32 lg:px-8">
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
               <div>
@@ -194,7 +185,7 @@ export function FormSection() {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="rounded-md bg-teal-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700"
               >
                 Send message
               </button>

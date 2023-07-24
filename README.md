@@ -1,6 +1,6 @@
-# Spotlight
+# Modified Spotlight Template
 
-Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org).
+Spotlight is a [Tailwind UI](https://tailwindui.com) site template built using [Tailwind CSS](https://tailwindcss.com) and [Next.js](https://nextjs.org). I've customized it for use on my personal portfolio
 
 ## Getting started
 
