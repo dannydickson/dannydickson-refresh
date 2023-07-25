@@ -50,8 +50,8 @@ export function FormSection() {
               Get in touch
             </h2>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-              I love solving problems. Let us know what you need help with and
-              I&apos;d be glad to help out!
+              I love solving problems. Let me know what you need help with and
+              I&apos;d be glad to help out! I can help with anything technology related from WordPress bug fixes to software recommendations.
             </p>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
               Use the form to the right to send us a message, or give us a call.
@@ -201,10 +201,10 @@ export default function Contact() {
   return (
     <>
       <Head>
-        <title>About - Danny Dickson</title>
+        <title>Contact - Danny Dickson</title>
         <meta
           name="description"
-          content="I’m Danny Dickson. I live in Albuquerque, NM, where I design the future."
+          content="I'm Danny Dickson. I live in Albuquerque, NM, where I design the future."
         />
       </Head>
       <Container className="mt-16 sm:mt-32">
