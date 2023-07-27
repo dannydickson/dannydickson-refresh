@@ -1,4 +1,6 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: ['./src/**/*.{js,jsx}'],
   darkMode: 'class',
@@ -6,6 +8,21 @@ module.exports = {
 		require('@tailwindcss/typography', '@tailwindcss/forms')
 	],
   theme: {
+		extend: {
+      fontFamily: {
+        'sans': ['Rubik', ...defaultTheme.fontFamily.sans],
+      },
+    },
+		fontWeight: {
+      light: '300',
+      normal: '400',
+      medium: '500',
+      semibold: '600',
+      bold: '700',
+      extrabold: '800',
+      'extra-bold': '800',
+      black: '900',
+    },
     fontSize: {
       xs: ['0.8125rem', { lineHeight: '1.5rem' }],
       sm: ['0.875rem', { lineHeight: '1.5rem' }],
@@ -103,7 +120,7 @@ module.exports = {
           // Headings
           'h2, h3': {
             color: 'var(--tw-prose-headings)',
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.medium'),
           },
           h2: {
             fontSize: theme('fontSize.xl')[0],
@@ -129,7 +146,7 @@ module.exports = {
           // Inline elements
           a: {
             color: 'var(--tw-prose-links)',
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.medium'),
             textDecoration: 'underline',
             textDecorationColor: 'var(--tw-prose-underline)',
             transitionProperty: 'color, text-decoration-color',
@@ -142,13 +159,13 @@ module.exports = {
           },
           strong: {
             color: 'var(--tw-prose-bold)',
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.medium'),
           },
           code: {
             display: 'inline-block',
             color: 'var(--tw-prose-code)',
             fontSize: theme('fontSize.sm')[0],
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.medium'),
             backgroundColor: 'var(--tw-prose-code-bg)',
             borderRadius: theme('borderRadius.lg'),
             paddingLeft: theme('spacing.1'),
@@ -197,7 +214,7 @@ module.exports = {
           },
           'li::marker': {
             fontSize: theme('fontSize.sm')[0],
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.medium'),
           },
           'ol > li::marker': {
             color: 'var(--tw-prose-counters)',
@@ -261,7 +278,7 @@ module.exports = {
           },
           'thead th': {
             color: 'var(--tw-prose-headings)',
-            fontWeight: theme('fontWeight.semibold'),
+            fontWeight: theme('fontWeight.medium'),
             verticalAlign: 'bottom',
             paddingBottom: theme('spacing.2'),
           },

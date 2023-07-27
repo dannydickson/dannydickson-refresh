@@ -46,7 +46,7 @@ export function FormSection() {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
               </svg> */}
             </div>
-            <h2 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            <h2 className="text-4xl font-medium uppercase tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               Get in touch
             </h2>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
@@ -99,7 +99,7 @@ export function FormSection() {
               <div>
                 <label
                   htmlFor="first-name"
-                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
+                  className="block text-sm font-medium leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   First name
                 </label>
@@ -116,7 +116,7 @@ export function FormSection() {
               <div>
                 <label
                   htmlFor="last-name"
-                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
+                  className="block text-sm font-medium leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Last name
                 </label>
@@ -133,7 +133,7 @@ export function FormSection() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="email"
-                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
+                  className="block text-sm font-medium leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Email
                 </label>
@@ -150,7 +150,7 @@ export function FormSection() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="phone-number"
-                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
+                  className="block text-sm font-medium leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Phone number
                 </label>
@@ -167,7 +167,7 @@ export function FormSection() {
               <div className="sm:col-span-2">
                 <label
                   htmlFor="message"
-                  className="block text-sm font-semibold leading-6 text-zinc-800 dark:text-zinc-100"
+                  className="block text-sm font-medium leading-6 text-zinc-800 dark:text-zinc-100"
                 >
                   Message
                 </label>
@@ -185,7 +185,7 @@ export function FormSection() {
             <div className="mt-8 flex justify-end">
               <button
                 type="submit"
-                className="rounded-md bg-teal-700 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700"
+                className="rounded-md bg-teal-700 px-3.5 py-2.5 text-center text-sm font-medium text-white shadow-sm hover:bg-teal-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-700"
               >
                 Send message
               </button>
