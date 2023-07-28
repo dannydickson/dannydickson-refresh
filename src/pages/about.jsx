@@ -60,7 +60,7 @@ export default function About() {
             </div>
           </div>
           <div className="lg:order-first lg:col-span-3 lg:row-span-2 lg:row-start-1">
-            <h1 className="text-4xl font-medium uppercase text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            <h1 className="text-4xl font-medium text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               I’m Danny Dickson. I live in Albuquerque, NM where I help to
               design the future.
             </h1>

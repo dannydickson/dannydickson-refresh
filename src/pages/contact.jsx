@@ -46,7 +46,7 @@ export function FormSection() {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
               </svg> */}
             </div>
-            <h2 className="text-4xl font-medium uppercase tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
+            <h2 className="text-4xl font-medium tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
               Get in touch
             </h2>
             <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">

@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import clsx from 'clsx'
-import './index.css'
+
 
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
