@@ -7,15 +7,15 @@ import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoRedWolf from '@/images/logos/red-wolf-cpa.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Red Wolf Consulting',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://dannydickson.com', label: 'dannydickson.com' },
-    logo: logoPlanetaria,
+      'Offering estate planning, start-up advisory services including business tax planning.',
+    link: { href: 'https://redwolfcpa.com', label: 'redwolfcpa.com' },
+    logo: logoRedWolf,
   },
   {
     name: 'Animaginary',
